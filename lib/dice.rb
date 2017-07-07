@@ -2,9 +2,9 @@ class Dice
   attr_accessor :number
 
   def initialize
-    @number = random_number
+    @number = roll
   end
-  def random_number
+  def roll
      1 + rand(6)
   end
 end
